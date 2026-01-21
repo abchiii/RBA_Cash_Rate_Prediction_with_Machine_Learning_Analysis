@@ -1,6 +1,6 @@
 # RBA Cash Rate Prediction with Machine Learning Analysis
 
-**Author:** Ching-Ting Huang (Collaborated with 3 group members)  
+**Author:** Ching-Ting Huang (Collaborated with 3 team members)  
 
 **Course:** ECOM90025 Advanced Data Analysis, University of Melbourne
 
