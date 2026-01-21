@@ -5,7 +5,7 @@
 **Course:** ECOM90025 Advanced Data Analysis, University of Melbourne
 
 ## Project Overview
-This project investigates the predictability of the **Reserve Bank of Australia (RBA)** cash rate decisions using a hybrid machine learning approach. Unlike traditional econometric forecasting which often relies on linear assumptions, this study compares parametric (Multinomial Logistic Regression) and non-parametric (Random Forest, XGBoost, Decision Trees) models to capture non-linear market dynamics.
+This project investigates the predictability of the Reserve Bank of Australia (RBA) cash rate decisions using a hybrid machine learning approach. Unlike traditional econometric forecasting which often relies on linear assumptions, this study compares parametric (Multinomial Logistic Regression) and non-parametric (Random Forest, Decision Trees, XGBoost) models to capture non-linear market dynamics.
 
 Using a dataset of 26 macroeconomic indicators (based on Vasnev et al., 2011) covering domestic and international factors, we aim to identify the most effective predictive framework for Australian monetary policy trends.
 
@@ -18,7 +18,7 @@ Using a dataset of 26 macroeconomic indicators (based on Vasnev et al., 2011) co
 The analysis is conducted in **Python** using a rigorous data science workflow:
 
 ### 1. Data Preprocessing & Selection
-* **Variable Selection:** 26 key variables were selected based with 3 lags on economic literature, categorized into Domestic Economic Indicators, Foreign Financial Variables, and Domestic Financial Markets.
+* **Variable Selection:** 26 key variables were selected with 3 lags based on economic literature, categorided into Domestic Economic Indicators, Foreign Financial Variables, and Domestic Financial Markets.
 * **Hybrid Feature Selection:**
     * **Lasso Regression (L1):** Used for initial dimensionality reduction and regularisation.
     * **Random Forest Feature Importance:** Applied to refine the variable set and identify non-linear contributors.
@@ -26,7 +26,7 @@ The analysis is conducted in **Python** using a rigorous data science workflow:
 
 ### 2. Model Development
 Five distinct classification models were trained and evaluated:
-* **Model 1 & 2:** Multinomial Logistic Regression (.
+* **Model 1 & 2:** Multinomial Logistic Regression (Comparing Interaction Sets).
 * **Model 3:** Random Forest Classifier.
 * **Model 4:** Decision Tree.
 * **Model 5:** XGBoost.
@@ -38,14 +38,13 @@ Five distinct classification models were trained and evaluated:
 ## Key Findings
 Our empirical results suggest that machine learning offers significant advantages in policy forecasting:
 
-* **Best Performing Model:** The **Random Forest** achieved the highest predictive accuracy of **73%**, outperforming the logistic regression baseline.
+* **Best Performing Model:** The Random Forest achieved the highest predictive accuracy of 73%, outperforming the logistic regression baseline.
 * **Drivers of Policy:** The analysis identified 'Annual Growth in CPI' and 'Inflation Expectation' as the most significant predictors of RBA decisions.
 * **Non-Linearity:** The superior performance of tree-based models (Random Forest/XGBoost) confirms that the relationship between macroeconomic indicators and central bank decisions is highly non-linear.
 
 ## Repository Structure
-* `Forecasting_RBA_Monetary_Policy.ipynb`: The main Jupyter Notebook containing the full data pipeline, model training, and evaluation code.
+* `Forecasting_RBA_Monetary_Policy.ipynb`: The comprehensive end-to-end analysis notebook, containing the project introduction, full data pipeline, model implementations, and final comparative conclusions.
 * `data/`: Folder containing the dataset used for training and testing.
-* `images/`: (Optional) Generated plots such as Decision Tree visualizations or Confusion Matrices.
 * `README.md`: Project documentation.
 
 ## Libraries Used
@@ -54,4 +53,4 @@ Our empirical results suggest that machine learning offers significant advantage
 * **Visualization:** `matplotlib`, `seaborn`, `graphviz`.
 
 ---
-*This project highlights the application of advanced quantitative methods to central bank policy forecasting.*
+**
