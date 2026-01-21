@@ -1,4 +1,4 @@
-# RBA_Cash_Rate_Prediction_with_Machine_Learning_Analysis
+# RBA Cash Rate Prediction with Machine Learning Analysis
 
 **Author:** Ching-Ting Huang (Collaborated with 3 group members)  
 
