@@ -53,4 +53,4 @@ Our empirical results suggest that machine learning offers significant advantage
 * **Visualization:** `matplotlib`, `seaborn`, `graphviz`.
 
 ---
-*This project was completed as part of the Master of Applied Econometrics curriculum.*
+*This project was completed as part of the University of Melbourne, Master of Applied Econometrics curriculum.*
